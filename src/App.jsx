@@ -1,9 +1,10 @@
 import "./App.css";
+import { LoginForm } from "./components/LoginForm/LoginForm";
 
 export const App = () => {
 	return (
 		<>
-			<h1>Hooks</h1>
+			<LoginForm />
 		</>
 	);
 };
