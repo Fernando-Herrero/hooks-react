@@ -5,6 +5,7 @@ import { LoginForm } from "./components/LoginForm/LoginForm";
 import { useWindowWidth } from "./hooks/useWindowWidth";
 import { PokemonViewer } from "./components/PokemonViewer/PokemonViewer";
 import { SizeScreen } from "./components/SizeScreen/SizeScreen";
+import { LayaoutSwitcher } from "./components/LayaoutSwitcher/LayaoutSwitcher";
 
 export const App = () => {
 	const width = useWindowWidth();
@@ -28,6 +29,7 @@ export const App = () => {
 			<Counter />
 			<PokemonViewer />
 			<SizeScreen />
+			<LayaoutSwitcher />
 		</>
 	);
 };
