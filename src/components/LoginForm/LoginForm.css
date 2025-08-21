@@ -1,32 +1,36 @@
 .login-form {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 4px;
-} 
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+    max-width: 300px;
+}
 
 .login-form label {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .login-form input {
-    padding: 4px;
+	padding: 4px;
 }
 
 .input-password-button {
-    display: flex;
-    position: relative;
+	display: flex;
+	position: relative;
+}
 
+.input-password-button input {
+    width: 100%;
 }
 
 .input-password-button button {
-    border: none;
-    background: transparent;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
 }
