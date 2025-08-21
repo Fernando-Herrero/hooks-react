@@ -3,6 +3,7 @@ import "./App.css";
 import { Counter } from "./components/Counter.jsx/Counter";
 import { LoginForm } from "./components/LoginForm/LoginForm";
 import { useWindowWidth } from "./hooks/useWindowWidth";
+import { PokemonViewer } from "./components/PokemonViewer/PokemonViewer";
 
 export const App = () => {
 	const width = useWindowWidth();
@@ -16,6 +17,7 @@ export const App = () => {
 		<>
 			<LoginForm />
 			<Counter />
+			<PokemonViewer />
 		</>
 	);
 };
